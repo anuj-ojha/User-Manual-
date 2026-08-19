@@ -1,10 +1,6 @@
----
-description: Create a new transfer order in the Receiving App to move inventory between facilities.
----
-
 # Create Transfer Order
 
-Use the Receiving App to create a Transfer Order (TO) and initiate the movement of inventory from one facility to another. Transfer orders help operations teams coordinate planned stock transfers between stores and warehouses.
+Use the Receiving App to create a Transfer Order (TO) and initiate the movement of inventory from one facility to another.   
 
 ## Accessing the Create Transfer Order page
 
@@ -21,8 +17,6 @@ The page is divided into two sections:
 
 - At the top of the left panel, locate the `Transfer name` field.
 - Enter a clear, descriptive name in the `Name` field to help identify the transfer order later.
-
-> **Tip:** Use a naming convention that includes the origin, destination, or date for easier identification. For example: `Brooklyn-to-Manhattan-Aug2025`.
 
 ## Assign facilities
 
@@ -54,7 +48,6 @@ The `Shipping Method` card contains two fields:
 ### Method
 - After selecting a carrier, choose a shipment method from the `Method` dropdown.
 - Available methods depend on the carrier selected.
-- If no shipment methods are configured for a carrier, a message `No shipment methods found` is displayed.
 
 ## Plan the transfer lifecycle
 
@@ -106,7 +99,7 @@ The right panel provides two methods to add products: **Scan** and **Search**. T
 4. Select `Add to Transfer` to add the product to the order.
 5. If more results are available, select `View more results` to open a full product search modal.
 
-Once a product is added, a green checkmark icon replaces the `Add to Transfer` button, indicating the product is already included in the order.
+> Once a product is added, a green checkmark icon replaces the `Add to Transfer` button, indicating the product is already included in the order.
 
 ## Set item quantities
 
@@ -133,7 +126,7 @@ After adding items, each product appears in the item list below the `Add items` 
 4. On successful creation, the system displays a confirmation message: `Order has been created and sent for admin approval`.
 5. You are redirected to the `Transfer Orders` list page.
 
-The newly created transfer order will appear in `Created` status, allowing further modifications (such as adding items or editing quantities) before the order is approved.
+> The newly created transfer order will appear in `Created` status, allowing further modifications (such as adding items or editing quantities) before the order is approved.
 
 ## Validation rules
 
@@ -150,12 +143,4 @@ The following validations are enforced when creating a transfer order:
 
 ## Video walkthrough
 
-`[📹 Video placeholder: Add a screen recording demonstrating the complete Create Transfer Order workflow — from navigating to the page, filling in details, adding products via scan and search, setting quantities, and submitting the order.]`
-
----
-
-**See also:**
-- Transfer Orders page
-- Transfer Order Details
-- Settings
 
