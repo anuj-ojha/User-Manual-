@@ -121,7 +121,7 @@ Each product row displays the following information:
 5. On successful creation, a toast message is displayed: `The cycle count has been created successfully`.
 6. The form resets, allowing you to create another count immediately.
 
-The newly created cycle count will appear under the `Assigned` tab in the Cycle Count app, and the assigned facility's store team can begin execution.
+The newly created cycle count will appear under the `Assigned` tab in the Cycle Count app.
 
 ## Validation rules
 
