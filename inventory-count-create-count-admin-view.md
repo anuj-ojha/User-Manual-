@@ -13,7 +13,7 @@ The Inventory Count App provides two views, Admin and Store, that share the same
 | Menu options | Bulk Upload, Create count, Assigned, Pending Review, Closed, Store Permissions, Settings | Counts, Create, Variance, Settings |
 | Target user | Head-office administrators, inventory managers | Store managers |
 
-## Accessing the Create Count page
+## Accessing the Create count page
 
 ### Admin view
 1. Log in to the Inventory Count App with an admin-level account.
