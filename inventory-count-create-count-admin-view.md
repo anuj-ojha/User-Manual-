@@ -1,28 +1,12 @@
----
-description: Create a new cycle count in the Inventory Count App using the Admin view.
----
-
 # Create Cycle Count — Admin View
 
-The Create Count page in the Admin view allows head-office administrators and inventory managers to set up new cycle counts and assign them to specific facilities. Once created, the assigned facility's store team can begin counting.
+The Create Count page in the Admin view allows to set up new cycle counts and assign them to specific facilities. Once created, the assigned facility's store team can begin counting.
 
 ## Accessing the Create Count page
 
 1. Log in to the Inventory Count App with an admin-level account.
 2. From the left-hand sidebar, select `Create count`.
 3. The `Create` page opens.
-
-The Admin view uses a sidebar-based navigation layout with the following menu options:
-
-| Menu item | Purpose |
-| :--- | :--- |
-| `Bulk Upload` | Create multiple cycle counts via CSV upload |
-| `Create count` | Manually create a single cycle count |
-| `Assigned` | View counts assigned to facilities |
-| `Pending review` | Review submitted counts awaiting approval |
-| `Closed` | View completed and closed counts |
-| `Store permissions` | Manage store-level counting permissions |
-| `Settings` | Configure app preferences |
 
 ## Required permissions
 
@@ -40,8 +24,6 @@ To access the Create Count page, users must have one of the following permission
 - Enter a clear, descriptive name for the cycle count.
 - This field is **required**. An error message `Please enter count name` is displayed if left empty.
 
-> **Tip:** Use a naming convention that includes the facility name, date, or product category for easier identification. For example: `Brooklyn-Footwear-Aug2025`.
-
 ### Facility
 
 - Select the `Facility` chip on the right side of the `Facility` row.
@@ -49,7 +31,6 @@ To access the Create Count page, users must have one of the following permission
 - Use the search bar to filter facilities by name or facility ID.
 - Select the target facility from the list by clicking the radio button.
 - The modal closes and the selected facility name is displayed on the chip.
-- This field is **required**. An error message `Please select a facility` is displayed if no facility is selected.
 
 ### Count type
 
@@ -68,8 +49,7 @@ To access the Create Count page, users must have one of the following permission
 - Select `Add Date` next to `Due Date`.
 - A date picker opens. Choose the date by which the count should be completed.
 - Select `Done` to confirm.
-- This field is **required**. An error message `Please select due date` is displayed if no date is set.
-- The date picker only allows selecting dates from today onwards.
+> The date picker only allows selecting dates from today onwards.
 
 ### Start Date
 
@@ -77,18 +57,12 @@ To access the Create Count page, users must have one of the following permission
 - A date picker opens. Choose the date when the store team is expected to begin counting.
 - Select `Done` to confirm.
 - This field is **optional**. If not set, the system defaults to the current date.
-- The start date **cannot be after the due date**. If it is, an error message `Start date cannot be after the due date` is displayed.
 
 > **Note:** Both dates are interpreted in the facility's local timezone. This ensures that store teams see the correct dates regardless of the administrator's location.
-
-## Search and select products
-
-After filling in the count details, use the product search section to find and select the items to include in the cycle count.
 
 ### Search for products
 
 - Use the `Search products` search bar to find products by name, SKU, or product ID.
-- The search uses a debounce of 300 milliseconds, so results appear as you type.
 - Products matching the search term are displayed in a list below.
 
 ### Filter by tags
@@ -165,11 +139,4 @@ The following validations are enforced when creating a cycle count:
 ## Video walkthrough
 
 `[📹 Video placeholder: Add a screen recording demonstrating the complete Create Cycle Count workflow from the Admin view — including navigating to the Create count page via the sidebar, filling in count details, searching and selecting products, and submitting the count.]`
-
----
-
-**See also:**
-- Bulk Upload
-- Assigned Counts
-- Pending Review
 
