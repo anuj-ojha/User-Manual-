@@ -138,5 +138,10 @@ The following validations are enforced when creating a cycle count:
 
 ## Video walkthrough
 
-`[📹 Video placeholder: Add a screen recording demonstrating the complete Create Cycle Count workflow from the Admin view — including navigating to the Create count page via the sidebar, filling in count details, searching and selecting products, and submitting the count.]`
+
+
+https://github.com/user-attachments/assets/fec09df9-fb2d-42df-8af0-027cd2b67fef
+
+
+
 
