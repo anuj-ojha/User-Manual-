@@ -1,10 +1,6 @@
----
-description: Create a new cycle count in the Inventory Count App using the Store view.
----
-
 # Create Cycle Count — Store View
 
-The Create page in the Store view allows store managers and authorized associates to set up new cycle counts directly from the store. The Store view uses a simplified, mobile-friendly bottom tab navigation designed for in-store use.
+The Create page in the Store view allows store managers to set up new cycle counts directly from the store.
 
 ## Accessing the Create page
 
@@ -23,23 +19,10 @@ The Store view uses a bottom tab bar with the following tabs:
 
 > **Note:** The `Variance` tab is visible only if your user account has the required variance permission.
 
-## Required permissions
-
-To access the Create page in the Store view, users must have one of the following permissions:
-
-- `COMMON_ADMIN`
-- `INV_COUNT_ADMIN`
-- `INVCOUNT_APP_VIEW`
-
-## Fill in the count details
-
-The Create page in the Store view contains the same form fields as the Admin view, presented in a mobile-optimized layout.
-
 ### Count name
 
 - Locate the `Count name` field at the top of the form.
 - Enter a clear, descriptive name for the cycle count.
-- This field is **required**. An error message `Please enter count name` is displayed if left empty.
 
 > **Tip:** Use a naming format that helps your team quickly identify the count. For example: `Backroom-Shoes-Week33`.
 
@@ -49,7 +32,6 @@ The Create page in the Store view contains the same form fields as the Admin vie
 - Your current facility is pre-selected by default.
 - Use the search bar to filter facilities by name or facility ID.
 - Select the facility from the list and confirm.
-- This field is **required**. An error message `Please select a facility` is displayed if no facility is chosen.
 
 > **Note:** In most cases, store users will keep the pre-selected facility (their own store). The ability to select a different facility is available for users with appropriate permissions.
 
@@ -70,7 +52,6 @@ The Create page in the Store view contains the same form fields as the Admin vie
 - Select `Add Date` next to `Due Date`.
 - A date picker opens. Choose the date by which the count must be completed.
 - Select `Done` to confirm.
-- This field is **required**. An error message `Please select due date` is displayed if not set.
 - Only dates from today onwards can be selected.
 
 ### Start Date
@@ -79,16 +60,11 @@ The Create page in the Store view contains the same form fields as the Admin vie
 - A date picker opens. Choose the date when counting should begin.
 - Select `Done` to confirm.
 - This field is **optional**. If not set, the system defaults to the current date.
-- The start date **cannot be after the due date**. An error message `Start date cannot be after the due date` is displayed if the validation fails.
-
-## Search and select products
-
-After filling in the count details, use the product search section to find and select items to include in the cycle count.
 
 ### Search for products
 
 - Use the `Search products` search bar to find products by name, SKU, or product ID.
-- Results appear as you type (with a short delay for search optimization).
+- Results appear as you type.
 
 ### Filter by tags
 
@@ -148,16 +124,7 @@ Each product in the search results is displayed with the following details:
 5. On successful creation, a toast message is displayed: `The cycle count has been created successfully`.
 6. The form resets, allowing you to create another count immediately.
 
-The newly created cycle count will appear under the `Counts` tab and is ready for the store team to begin execution.
-
-## Key differences from the Admin view
-
-| Feature | Admin view | Store view |
-| :--- | :--- | :--- |
-| Navigation | Left sidebar menu | Bottom tab bar |
-| Default facility | Must be selected manually | Pre-selected to the current store |
-| Menu options | Full admin menu (Bulk Upload, Assigned, Pending Review, Closed, Store Permissions, Settings) | Simplified tabs (Counts, Create, Variance, Settings) |
-| Target user | Head-office administrators, inventory managers | Store managers, authorized store associates |
+> The newly created cycle count will appear under the `Counts` tab and is ready for the store team to begin execution.
 
 ## Validation rules
 
@@ -175,11 +142,4 @@ The following validations are enforced when creating a cycle count:
 ## Video walkthrough
 
 `[📹 Video placeholder: Add a screen recording demonstrating the complete Create Cycle Count workflow from the Store view — including navigating to the Create tab via the bottom navigation bar, filling in count details, searching and selecting products, and submitting the count.]`
-
----
-
-**See also:**
-- Counts tab
-- Variance tab
-- Settings
 
