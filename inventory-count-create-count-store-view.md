@@ -141,5 +141,4 @@ The following validations are enforced when creating a cycle count:
 
 ## Video walkthrough
 
-`[📹 Video placeholder: Add a screen recording demonstrating the complete Create Cycle Count workflow from the Store view — including navigating to the Create tab via the bottom navigation bar, filling in count details, searching and selecting products, and submitting the count.]`
-
+https://github.com/user-attachments/assets/db823e3f-ff0a-498a-8b05-44329593d694
