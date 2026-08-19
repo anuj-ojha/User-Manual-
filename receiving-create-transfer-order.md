@@ -23,7 +23,7 @@ The `Assign` card contains the following fields:
 
 ### Product Store
 
-- If your OMS manages multiple brands or product collections, select the appropriate `Product Store` from the dropdown.
+- Select the appropriate `Product Store` from the dropdown.
 - If only one store exists, it is selected by default and displayed as a label.
 
 ### Origin
@@ -132,5 +132,3 @@ After adding items, each product appears in the item list below the `Add items` 
 4. You are redirected to the `Transfer Orders` list page.
 
 > The newly created transfer order appears in `Created` status. You can add items or edit quantities before the order is approved.
-
-`[Video: Add a screen recording that walks through creating a transfer order, from filling in the form to adding products and submitting.]`
